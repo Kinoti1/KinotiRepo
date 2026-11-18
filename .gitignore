@@ -1,0 +1,13 @@
+.venv/
+_pycache_/
+*.py[cod]
+
+data/*
+!data/.gitkeep
+
+api/data/*
+!api/data/.gitkeep
+
+# Exclude test metadata CSV files
+test-data/metadata_cleanup_duplicates_part1.csv
+test-data/metadata_cleanup_duplicates_part2.csv
